@@ -2,13 +2,18 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1>Welcome To Modernized Hospital of XYZ </h1>
-
-    <img src="~/Images/Northern-Westchester-Hospital-Surgical.jpg" alt="Hospital Logo" />
-    <h3> This is a very useful programme for recording information about both patients and staff. All personnel are able to get updates to this application. </h3>
-    <p>Please enter The information of your Patient <a href="../Patients"> Login here!</a></p>
-    <br/>
-    <p>Please enter The information of your Nurse <a href="../Nurses"> Login here!</a></p>
-
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to Modernized Hospital</h1>
+        <p class="lead">Providing Quality Healthcare Services</p>
+        <hr class="my-4">
+        <div class="text-center">
+            <img src="~/Images/Northern-Westchester-Hospital-Surgical.jpg" class="img-fluid" alt="Hospital Logo">
+        </div>
+        <p>Our hospital is committed to delivering exceptional medical care to our patients. We offer a wide range of services to meet your healthcare needs.</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="../Patients" role="button">Patient Portal</a>
+            <a class="btn btn-primary btn-lg" href="../Nurses" role="button">Nurse Portal</a>
+        </p>
+    </div>
 </div>
